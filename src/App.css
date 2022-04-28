@@ -1,0 +1,53 @@
+.App {
+    width:410px;
+    height: 220px;
+    padding: 10px;
+    margin: 20px auto 0;
+    border: 1px solid #FAD9E6;
+    border-radius: 6px;
+    background-color: #FDEBF7;
+    /*background-color: #FEE3EC;*/
+
+
+}
+.app-container {
+    display:flex;
+    justify-content: space-between;
+}
+
+.input-lira {
+    width: 140px !important;
+}
+.input-group-text{
+    background-color: #FAD9E6 !important;
+}
+
+/*component button*/
+.group-button button {
+    margin-left: 10px;
+    background-color: #FAD9E6;
+}
+.group-button button:active {
+    outline: none;
+}
+.buttons-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.btn-send {
+    background-color: #FAD9E6;
+    color: black;
+    border-color: #FAD9E6;
+
+}
+/*component result*/
+.result-wrap {
+    display: flex;
+    justify-content: space-between;
+
+}
+/*navigate component*/
+.flex {
+    display: flex;
+    justify-content: end;
+}
